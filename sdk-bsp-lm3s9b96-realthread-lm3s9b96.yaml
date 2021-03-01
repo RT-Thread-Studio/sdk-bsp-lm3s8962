@@ -18,7 +18,7 @@ board:
 chip:
   chip_name: 'LM3S9B96 '
   clock_source: HSE
-  device_vendor: LM
+  device_vendor: TI
   family_name: LM3S
   rx_name: PA10
   series_name: 'LM3S9B96 '
