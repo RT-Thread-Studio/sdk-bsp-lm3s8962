@@ -1,0 +1,88 @@
+board:
+  buy_url_cn: N/A
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: J-Link
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/lm3s.jpg
+  name: LM3S9B96-TI-DEVELOPMENT-BOARD
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: N/A
+  sale_contact_global: N/A
+  small_image: documents/images/lm3s_smalll.jpg
+  vendor: RealThread
+  version: 1.0.0
+chip:
+  chip_name: 'LM3S9B96 '
+  clock_source: HSE
+  device_vendor: LM
+  family_name: LM3S
+  rx_name: PA10
+  series_name: 'LM3S9B96 '
+  source_freq: '8000000'
+  sub_series_name: 'LM3S9B96 '
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs: []
+example_projects: []
+features:
+- TFT LCD module with 320 x 240 resolution
+- Resistive touch interface
+- 80 MHz LM3S9B96 microcontroller with 256 K Flash, 96 K SRAM, and integrated Ethernet
+  MAC+PHY, USB OTG, and CAN communications
+- 1 MB serial Flash memory
+features_zh:
+- 分辨率 320 x 240 的 TFT LCD 模块
+- 电阻触摸屏
+- 80MHZ LM3S9B96微控制器，256k Flash, 96k SRAM，集成以太网MAC+PHY, USB OTG, CAN通信
+- 1 MB的串口闪存
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - cconfig.h
+    - drivers
+    - Libraries
+    - lm3s_rom.ld
+    - lm3s_rom.sct
+    - makefile.targets
+    - project.Uv2
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.Uv2
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: project_0
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
